@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: rgb(237, 237, 237);
+}
+.container .ql-toolbar.ql-snow  {
+  background-color: rgb(237, 237, 237);
+}
+
+
+.container .ql-editor{
+  @apply p-8 shadow-xl bg-white 
+}
+.container .ql-container.ql-snow{
+  @apply border-none m-4
+}
+.container .ql-toolbar.ql-snow {
+  @apply flex justify-center sticky top-0 z-10 mb-4
+}
